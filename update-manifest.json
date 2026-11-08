@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "packVersion": "1.0.0",
+  "launcherVersion": "6.0.0-test.1",
+  "publishedUtc": "2026-11-08T20:00:00Z",
+  "message": "Initial Last Horizon cloud update channel",
+  "bundle": {
+    "url": "https://raw.githubusercontent.com/repo0o/last-horizon-rebirth-updates/main/LastHorizonUpdate-1.0.0.zip",
+    "sha256": "7543fc7e758848e946611ddc7a7dc6d7e883e472d74c1a59c2002275cc93f9e0",
+    "size": 290
+  },
+  "files": [],
+  "remove": []
+}
