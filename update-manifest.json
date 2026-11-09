@@ -1,21 +1,39 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "packVersion": "1.0.1",
-  "launcherVersion": "6.1.0-test.1",
-  "publishedUtc": "2026-11-08T23:55:00Z",
-  "message": "Fix invisible shield and first-person shield rendering",
+  "packVersion": "2.0.0",
+  "launcherVersion": "2.0",
+  "publishedUtc": "2026-11-09T14:50:00Z",
+  "message": "Launcher V2.0: enforce NeoForge 21.1.259 for TLauncher and install Iris automatically",
   "bundle": {
-    "url": "https://raw.githubusercontent.com/repo0o/last-horizon-rebirth-updates/main/LastHorizonUpdate-1.0.1.zip",
-    "sha256": "e7544b13e629b6e82f9c1ce7d2445ec63ef1dd91c9633a6401bf708240d57ac3",
-    "size": 1768
+    "url": "https://raw.githubusercontent.com/repo0o/last-horizon-rebirth-updates/main/LastHorizonUpdate-2.0.0.zip",
+    "sha256": "55318d4ba73e5ee0bcc501d367925898fcb92823d4342bf20699187bd28aef31",
+    "size": 32598
   },
   "files": [
     {
-      "scope": "game",
-      "path": "config/spatial-gui.json",
-      "sha256": "d8969de262349418e09afe44f859a4c0fb5cbc4556c62068341c33b27a3939c6",
-      "size": 5164
+      "scope": "launcher",
+      "path": "LastHorizonLauncher.ps1",
+      "sha256": "c7cf354a7a99955408dad23ba5c62c836eacf83bafdc98ec1f3e8e24f0cfa3f8",
+      "size": 60186
+    },
+    {
+      "scope": "launcher",
+      "path": "LauncherWindow.xaml",
+      "sha256": "4e6f671b8ee8d8156d0406d0cc98ac402fb305b7efed0cf7f4183e5558d7e0de",
+      "size": 9907
+    },
+    {
+      "scope": "launcher",
+      "path": "README.txt",
+      "sha256": "bcbd39056c8b2ef7a23eb83c5c6e22de3c7b73e389c96bf0e15e82843fdd56e6",
+      "size": 4737
+    },
+    {
+      "scope": "launcher",
+      "path": "tlauncher-template.zip",
+      "sha256": "1b10e22f9d6b41b8d67d661126fb979595ac4417e9747d55bd4e154d86bf1d54",
+      "size": 12399
     }
   ],
   "remove": []
