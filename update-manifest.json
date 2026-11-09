@@ -1,15 +1,22 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "packVersion": "1.0.0",
-  "launcherVersion": "6.0.0-test.1",
-  "publishedUtc": "2026-11-08T20:00:00Z",
-  "message": "Initial Last Horizon cloud update channel",
+  "packVersion": "1.0.1",
+  "launcherVersion": "6.1.0-test.1",
+  "publishedUtc": "2026-11-08T23:55:00Z",
+  "message": "Fix invisible shield and first-person shield rendering",
   "bundle": {
-    "url": "https://raw.githubusercontent.com/repo0o/last-horizon-rebirth-updates/main/LastHorizonUpdate-1.0.0.zip",
-    "sha256": "7543fc7e758848e946611ddc7a7dc6d7e883e472d74c1a59c2002275cc93f9e0",
-    "size": 290
+    "url": "https://raw.githubusercontent.com/repo0o/last-horizon-rebirth-updates/main/LastHorizonUpdate-1.0.1.zip",
+    "sha256": "e7544b13e629b6e82f9c1ce7d2445ec63ef1dd91c9633a6401bf708240d57ac3",
+    "size": 1768
   },
-  "files": [],
+  "files": [
+    {
+      "scope": "game",
+      "path": "config/spatial-gui.json",
+      "sha256": "d8969de262349418e09afe44f859a4c0fb5cbc4556c62068341c33b27a3939c6",
+      "size": 5164
+    }
+  ],
   "remove": []
 }

@@ -1,0 +1,8 @@
+Upload both files in this folder to the root of:
+https://github.com/repo0o/last-horizon-rebirth-updates
+
+1. Upload LastHorizonUpdate-1.0.1.zip first and commit it.
+2. Replace update-manifest.json second and commit it.
+
+Uploading the bundle first prevents launchers from seeing a manifest that points
+to a file that is not available yet.
